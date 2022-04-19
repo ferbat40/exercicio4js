@@ -55,6 +55,13 @@ posto = new Posto('petrobras',cgasolina2,cetanol2);
 posto.sugereCombustivel();
 
 
+const cetanol3 = new Combustivel('etanol',4.15);
+const cgasolina3 = new Combustivel('gasolina',7.20);
+console.log(cetanol3.preco); 
+console.log(cetanol3.tipo); 
+
+posto = new Posto('petrobras',cgasolina3,cetanol3);
+posto.sugereCombustivel();
 
 
-//combus.imprimir();
+
