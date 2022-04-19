@@ -24,7 +24,7 @@ export class Combustivel{
 
 
   set preco(preco){
-    this._preco=preco*2;
+    this._preco=preco;
   }
 
 
