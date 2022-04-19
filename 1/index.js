@@ -20,22 +20,7 @@ posto = new Posto('petrobras',gasolina,etanol);
 posto.sugereCombustivel();
 
 
-const cetanol = new Combustivel('etanol',4.15);
-const cgasolina = new Combustivel('gasolina',7.40);
-posto = new Posto('petrobras',cgasolina,cetanol);
-posto.sugereCombustivel();
 
-
-const cetanol2 = new Combustivel('etanol',4.35);
-const cgasolina2 = new Combustivel('gasolina',7.30);
-posto = new Posto('petrobras',cgasolina2,cetanol2);
-posto.sugereCombustivel();
-
-
-const cetanol3 = new Combustivel('etanol',4.15);
-const cgasolina3 = new Combustivel('gasolina',7.20);
-posto = new Posto('petrobras',cgasolina3,cetanol3);
-posto.sugereCombustivel();
 
 
 
