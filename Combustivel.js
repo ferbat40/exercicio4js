@@ -1,7 +1,7 @@
 export class Combustivel {
     constructor(tipo, preco) {
         this._tipo = tipo;
-        this._preco = preco
+        this._preco = preco;
     }
     get tipo() {
         return this._tipo;
@@ -13,6 +13,6 @@ export class Combustivel {
         return this._preco;
     }
     set preco(preco) {
-        this._preco = preco * 2;
+        this._preco = preco;
     }
 }

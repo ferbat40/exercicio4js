@@ -23,7 +23,7 @@ export class Combustivel{
   }
 
 
-  set preco(preco) {
+  set preco(preco){
     this._preco=preco;
   }
 
