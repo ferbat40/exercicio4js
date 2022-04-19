@@ -28,12 +28,6 @@ export class Combustivel{
   }
 
 
-  //imprimir(){
-    //  for (let t of this._combustivel){
-
-      //  console.log(t);
-
-     // }
- // }
+  
 
 }
