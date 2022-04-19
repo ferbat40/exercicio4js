@@ -1,13 +1,10 @@
 
 
-//let combust=[
-//'etanol',
-//'gasolina'
+
 
 import { Combustivel } from "./Combustivel.js";
 import { Posto } from "./Posto.js";
 
-//]
 
 let etanol = new Combustivel('etanol',5.49);
 let gasolina = new Combustivel('gasolina',6.49);
