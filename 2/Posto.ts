@@ -14,7 +14,7 @@ export class Posto{
 
 
     get nome(){
-        return this._nome;
+        return this._nomess;
     }
   
   
