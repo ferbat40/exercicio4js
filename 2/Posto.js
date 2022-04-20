@@ -5,7 +5,7 @@ export class Posto {
         this._etanol = etanol;
     }
     get nome() {
-        return this._nome;
+        return this._nomes;
     }
     set nome(nome) {
         this._nome = nome;
